@@ -1,7 +1,7 @@
 //your code here
 let inPut= document.getElementById("evaluatedText");
 let count= document.getElementById("letterCount");
-inPut.addEventListener(input,()=>{
+inPut.addEventListener('input',()=>{
 	let str=inPut.value;
-	count.innerHTML=`{str.length}`;
+	count.innerHTML=`${str.length}`;
 })
